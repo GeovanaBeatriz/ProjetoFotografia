@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="shortcut icon" href="imagens/icon.jpg">
+    <title> Home - YOUPHOTOS</title>
+</head>
+<body>
+    <div class="principal">
+        <header class="main-header">
+         <h1>YOUPHOTOS</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" id="#menu">Home</a></li>
+                    <li><a href="index2.html">Cadastro</a></li>
+                    <li><a href="#">Criador</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Mais</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+    
+        <h2>Cadastro</h2>
+        <div class="formulario">
+        <form action="#" method="POST">
+        <div class="field">
+        <label>Digite seu nome: </label>
+        <input type="text" name="Nome_Usuário" placeholder="Nome" class="nome">
+        </div>
+
+        <div class="field">
+        <label>E-mail:</label>
+        <input type="email" name="email" placeholder="E-mail" class="email">
+        </div>
+
+        <div class="field">
+        <label>Quantas pessoas participarão?</label>
+        <select class="escolhas"> 
+            <option selected disabled>Escolha</option> <!--Opção selecionada e desabilitada para escolha-->
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5+</option>
+        </select>
+        </div>
+
+        <div class="field">
+        <textarea name="motivo" cols="50" rows="10" style=" resize: none" placeholder="Como deseja o ensaio:"></textarea>
+        </div>
+
+        <button value="submit" class="button">Enviar</button>
+        <button type="reset" value="Limpar" class="button">Limpar</button>
+        </form>
+        </div>
+        </main>
+
+        <footer>
+            <p>Copyright &copy; YOUPHOTOS.com</p>
+        </footer>
+    
+    </div>
+</body>
+</html>
