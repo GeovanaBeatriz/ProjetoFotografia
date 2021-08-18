@@ -187,12 +187,21 @@ main h1{
 
 }
 
-quote{
+.quote{
     margin-top: 20px;
     margin-left: 10px;
-    border-left: solid gray;
-    padding-left: 10px;
+    border-left: solid rgb(112, 111, 111);
+  
     align-self: center;
+    background-color: rgba(0, 0, 0, 0.062);
+    height: 100px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+quote{
+    letter-spacing: 1px;
 }
 
 article p {
@@ -206,6 +215,20 @@ article p {
 
 
 /*INDEX 4*/
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content img{
+    width: 20%;
+}
+
+.content section{
+    margin-top: 40px;
+}
 
 
 /*SEGUNDA TEEEEEEEEEELA*/
@@ -321,6 +344,47 @@ article p {
     margin: auto;
     position: relative; 
     text-align: center;
+}
+
+/*INDEX 3*/
+
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.apresentacao img{
+    float: left;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.quote{
+    padding-top: 30px;
+    border-left: solid gray;
+    padding-left: 10px;
+    
+}
+
+quote{
+    margin-bottom: -100px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+
+/*INDEX 4*/
+
+.content {
+    flex-direction: row;
+}
+
+.footer-index4{
+    margin-top: 150px;
 }
 
 }
